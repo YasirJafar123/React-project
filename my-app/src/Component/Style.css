@@ -1,0 +1,1481 @@
+.main {
+    overflow: hidden;
+
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+}
+.img{
+    max-height: 85px;
+    max-width: 70px;
+}
+.nav-link{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin: 0px 12px;
+    color: #0e2e47 !important;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.dropdown-item {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin: 0px 12px !important;
+    color: #0e2e47 !important;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.nav-link:hover {
+    color: rgb(46, 99, 160) !important;
+}
+
+.dropdown-item:hover {
+    background-color: #036361 !important;
+    color: white !important;
+    width: auto !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* home section  */
+.right-side-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 250px;
+}
+
+.background-images .left-side-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+   width: 180px;
+}
+
+
+.home {
+    position: relative;
+    top: 110px;
+}
+
+.home .home-image img {
+    max-height: 820px;
+    position: relative;
+    margin-top: 11% !important;
+}
+
+.home .main-custom-titl {
+    position: relative;
+    margin-top: 11%;
+}
+
+.home .custom-heading {
+    font-size: 54px;
+    font-family: "Sacramento", cursive;
+    color: #603813;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home .custom-title {
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: url('C:\Users\cc\Desktop\react1\my-app\public\Images\text_image.png'),
+        lightgray -5.299px -246.285px / 100% 358.405% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home .custom-text {
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+
+.home .btn {
+    border: 1px solid #fbe50f;
+    background-color: #e70f88;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    padding: 8px 10px;
+}
+
+#what-text {
+    border: 1px solid #fbe50f;
+    background: #fffde8;
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px 0px;
+    width: 323px;
+    text-align: center;
+}
+
+#btnGroupDrop1 {
+    border: 1px solid #fbe50f;
+    background: #fffde8;
+    color: #603813;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    padding: 8px 0px;
+    width: 150px;
+}
+
+#what-text::placeholder {
+    color: #603813;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+.home .custom-para {
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+    font-weight: 400;
+}
+
+/* about section */
+
+.about .best {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    color: #603813;
+    font-weight: bold;
+}
+
+.about .taste {
+    font-size: 54px;
+    font-family: "Sacramento", cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.about .about-image img {
+    max-height: 313px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.about-text {
+    color: #603813;
+    background-color: #fbe50f;
+    font-family: Poppins, system-ui;
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 75%;
+    border-radius: 8px;
+    position: relative;
+    bottom: 165px;
+    left: 30px;
+    padding: 7px;
+}
+
+/* visit section */
+.background-image {
+    background-image: url('C:\Users\cc\Desktop\react1\my-app\public\Images\image4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 96px;
+}
+
+.visit .main-hed {
+    position: relative;
+    top: 10px;
+}
+
+.visit .visit-hed {
+    font-size: 54px;
+    font-family: "Sacramento", cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.visit .visit-titl {
+    font-size: 48px;
+    font-family: "Poppins", system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.visit .visit-para {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: #603813;
+    position: relative;
+    top: 30px;
+}
+
+.visit .heading-2 {
+    font-size: 60px;
+    font-family: Poppins, system-ui;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: url('C:\Users\cc\Desktop\react1\my-app\public\Images\text_image.png'),
+        lightgray -5.299px -246.285px / 100% 358.405% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -20px;
+}
+
+.visit .see-btn {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-color: #e70f88;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 4px;
+    text-align: center !important;
+    vertical-align: 12px;
+    margin-left: 40px;
+}
+
+
+/* services section */
+
+.services-background {
+    background-image: url('C:\Users\cc\Desktop\react1\my-app\public\Images\treer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.services .services-head {
+    text-align: center;
+}
+
+.services .services-heading {
+    font-size: 54px;
+    font-family: "Sacramento", cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.services .services-title {
+    font-size: 48px;
+    font-family: "Poppins", system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+
+/* section tv */
+
+.tv .tv-head {
+    text-align: center;
+}
+
+.tv .tv-heading {
+    font-size: 54px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.tv .tv-title {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.title
+{
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+.cros-img  {
+    height: 480px !important;
+    padding: 10px;
+    width: 100%;
+    border-radius:25px ;
+}
+
+.slick-dots {
+    position: relative;
+    top: 30px;
+    display: block;
+}
+
+.slick-dots li {
+    margin: 50px 5px
+}
+
+.slick-dots li button:before {
+    color: gray;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #E70F88;
+}
+
+.slick-slider .slick-slide {
+    transition: transform 0.5s ease;
+}
+
+.slick-active .slide-text {
+    display: block;
+}
+
+.slide-text{
+    border-radius: 10px;
+    background-color: #0380C6;
+    box-shadow: 0px 3px 5px -1px black;
+    max-width: 86%;
+    height: 100px;
+    margin: auto;
+    margin-top: -70px;
+    position: relative;
+    display: none;
+}
+.slick-slide {
+    position: relative;
+}
+.slick-active .crosel-icon{
+    display: block;
+}
+.crosel-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+
+
+.slide-text img{
+    max-height: 190px;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+    margin-top: -70px;
+}
+.slide-para{
+
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+}
+
+
+
+/* section cuisins */
+.cuisin-background {
+    background-image: url('C:\Users\cc\Desktop\react1\my-app\public\Images\cui-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.cuisin .cuisin-head {
+    text-align: center;
+}
+
+.cuisin .cuisin-heading {
+    font-size: 54px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.cuisin .cuisin-title {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.cuisin .cuisin-text {
+    color: #603813;
+    background-color: #fbe50f;
+    font-family: Poppins, system-ui;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 4px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+}
+
+.cuisin .cuisin-2nd-head {
+    text-align: center;
+}
+
+.cuisin .cuisin-2nd-heading {
+    font-size: 54px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+    font-weight: 400;
+    position: relative;
+    right: 200px;
+}
+
+.cuisin .cuisin-2nd-title {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.cuisin-images {
+    max-height: 300px;
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cuisin-2nd-image {
+    max-height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.cuisin-2nd-text {
+    color: #603813;
+    font-family: Poppins, system-ui;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cuisin .paragraph-2nd {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #603813;
+    text-align: center;
+}
+
+/* work section */
+
+.work-background {
+    background-image: url("C:\Users\cc\Desktop\react1\my-app\public\Images\treel.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.works .work-head {
+    text-align: center;
+}
+
+.works .work-heading {
+    font-size: 54px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.works .work-title {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.works .work-image img {
+    max-height: 150px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.works .work-text {
+    color: #603813;
+    font-family: Poppins, system-ui;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.works .work-para {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #603813;
+    text-align: center;
+}
+
+/* footer section */
+footer {
+    width: 100vw;
+}
+
+.fot .fot-background {
+    background-color: #2e1703;
+    width: 100%;
+}
+
+.fot .fot-background {
+    background-image: url("C:\Users\cc\Desktop\react1\my-app\public\Images\fot-right-back.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right bottom;
+}
+
+.fot .fot-heading {
+    color: white;
+    font-family: Poppins, system-ui;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+
+.fot .fot-para {
+    color: white;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    text-align: left;
+}
+
+
+
+/* 2nd business page*/
+/* home section */
+
+#what-text1 {
+    border: 1px solid #fbe50f;
+    background: #fffde8;
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px 0px;
+    width: 200px !important;
+    text-align: center;
+}
+
+#btnGroupDrop1 {
+    border: 1px solid #fbe50f;
+    background: #fffde8;
+    color: #603813;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    padding: 8px 0px;
+    width: 120px;
+}
+
+#what-text1::placeholder {
+    color: #603813;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+.seach-data {
+    overflow: scroll;
+}
+
+.home .busi-right-img {
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.home .services-heading {
+    font-size: 40px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.home .services-title {
+    font-size: 39px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.home .bus1-data h2 {
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+    font-weight: bold;
+}
+
+.home .bus1-data h4 {
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+}
+
+.home .see-btn {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-color: #E70F88;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    vertical-align: 12px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+
+/* about page  */
+.home .about-page-img {
+    max-height: 450px;
+    width: 300px;
+}
+
+.home .pro-title {
+    font-size: 60px;
+    font-family: Poppins, system-ui;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: url('C:\Users\cc\Desktop\react1\my-app\public\Images\text_image.png'),
+        lightgray -5.299px -246.285px / 100% 358.405% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -20px;
+}
+
+.home .about-page-main p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+
+.home .about-page-para {
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    color: #000000;
+}
+
+.home .about-page-main h4 {
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+
+
+
+/* application page  */
+
+
+.home .application-back-image {
+    background-image: url('C:\Users\cc\Desktop\react1\my-app\public\Images\sign-up.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.home .application-text {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+    text-align: center;
+    text-size-adjust: large;
+}
+
+.qr-text {
+    color: black;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+}
+
+.qr-text1 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    text-align: center !important;
+}
+
+.application-para {
+    color: #2B1400;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.home .custom-title1 {
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: url('C:\Users\cc\Desktop\react1\my-app\public\Images\text_image.png'),
+        lightgray -5.299px -246.285px / 100% 358.405% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* blog page  */
+
+.home .blog-heading h2 {
+    font-size: 54px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+}
+
+.home .blog-title {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.home .blog-para {
+    font-size: 24px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: 400;
+}
+
+.home .blog-date {
+    color: #BA8F73;
+    font-size: 12px;
+    font-family: Poppins, system-ui;
+}
+
+.home .see-btn1 {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-color: #E70F88;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px 80px;
+    vertical-align: 12px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.blog-dropdown {
+    background-color: white;
+    color: #603813;
+    border: 2px solid #FBE50F;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    border-radius: 50px;
+    padding: 10px 60px;
+}
+
+.blog-dropdown1 {
+    color: #603813;
+}
+
+.blog-item {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+}
+
+/* blog2 page section  */
+
+.home .blog2-img img {
+    max-height: 450px;
+    width: 100%;
+}
+
+.home .blog2-text {
+    font-size: 26px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+    font-weight: bold;
+}
+
+.home .blog2-para {
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    color: #000000;
+    text-align: left;
+}
+
+
+/* C_policy Pages \ */
+.dotted-underline {
+    text-decoration: underline dotted red;
+}
+
+.cookie p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.cookie li {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Delivery pages  */
+
+.location {
+    font-size: 24px;
+    font-family: "Poppins", system-ui;
+    color: #603813
+}
+
+.dlvry-loc-img {
+    max-height: "350px" !important;
+    width: 90%;
+    border: 10px solid white;
+}
+
+.home .delivery1-img {
+    max-height: 500px;
+    width: 100%;
+}
+
+.delvry-hell-city .delvry-back-image {
+    background-image: url('C:\Users\cc\Desktop\react1\my-app\public\Images\cui-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.delvry-hell-city .delvry-head h1 {
+    font-size: 36px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+    font-weight: 600;
+}
+
+.delvry-hell-city .sub-head h5 {
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+    font-weight: bold;
+}
+
+.delvry-hell-city .sub-head h4 {
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    color: #000000;
+}
+
+.delvry-hell-city .sub-head2 h5 {
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    color: #603813;
+    font-weight: bold;
+}
+
+.delvry-hell-city .sub-head2 h4 {
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    color: #000000;
+}
+
+.delvry-services .services-heading {
+    font-size: 54px;
+    font-family: Sacramento, cursive;
+    color: #603813;
+    font-weight: 400;
+}
+
+.delvry-services .services-title {
+    font-size: 48px;
+    font-family: Poppins, system-ui;
+    color: #603813;
+    font-weight: bold;
+}
+
+.delvry-services .qr-image {
+    max-height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+
+}
+
+.delvry-hell-city .sub-head img {
+    max-height: 40px;
+    width: 40px;
+    position: relative;
+    right: 50px;
+    bottom: 60px;
+}
+
+.delvry-hell-city .sub-head2 img {
+    max-height: 40px;
+    width: 40px;
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+}
+
+.dicon7-img {
+    position: relative !important;
+    right: 50px;
+    bottom: 110px !important;
+}
+
+.delvry-hell-city .sub-head {
+    position: relative;
+    left: 50px;
+}
+
+.delvry-hell-city .sub-head2 {
+    position: relative;
+    left: 45px;
+}
+
+.click-btn {
+    color: #09F84C;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    border-color: white;
+}
+
+.qr-texts {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #603813;
+    font-weight: 600;
+}
+
+/* table data  */
+.table {
+    border: #D9B883;
+}
+
+.opening_our {
+    color: #603813;
+    font-size: 21px;
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+}
+
+.th_data th {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #603813;
+}
+
+.th_data td {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #2B1400;
+    font-weight: 600;
+}
+
+.see-btn3 {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-color: #E70F88;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px 0px;
+    width: 200px;
+    vertical-align: 12px;
+    text-align: center;
+}
+
+.exper-logo {
+
+    background-color: white;
+    color: black;
+    z-index: 10;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.1);
+    top: 0;
+    height: 500px;
+}
+
+
+/* Experiance page section  */
+.exper-logo {
+
+    background-color: white;
+    color: black;
+    z-index: 10;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.1);
+    top: 0;
+    height: 500px;
+}
+.custom-text2{
+  font-size: 20px;
+  font-family: Poppins, system-ui;
+  color: #603813;
+  font-weight: 600;
+}
+.exper-left-heading{
+  font-size: 20px;
+  font-family: Poppins, system-ui;
+  color: #603813;
+  font-weight: 600;
+}
+.exper-left-sub_heading{
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  color: #603813;
+}
+#Edit{
+  color: #151414; 
+  font-size: 16px;
+  font-family: "Poppins", system-ui;
+}
+#Delete{
+  color: #F81313; 
+  font-size: 16px;
+  font-family: "Poppins", system-ui;
+}
+#Logout{
+  color: #603813; 
+  font-size: 16px;
+  font-family: "Poppins", system-ui;
+}
+
+
+/* privacy policy page  */
+.term-condition{
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+}
+
+
+
+/* product page */
+
+
+.home .pro-heading-1 h1 {
+  font-size: 48px;
+  font-family: Poppins, system-ui;
+  color: #603813;
+  font-weight: bold;
+}
+
+.home .pro-heading-1 p {
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  color: #603813;
+}
+
+
+
+/* signup page section  */
+
+.home .signup-background-img{
+  background-image: url('C:\Users\cc\Desktop\react1\my-app\public\Images\sign-up.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right ;
+}
+
+.home .sign-title{
+  font-size: 50px;
+  font-family: Poppins, system-ui;
+  color: #603813;
+  font-weight: bold;
+}
+
+.see-btn2{
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: #E70F88;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  vertical-align: 12px !important;
+}
+.icon-inside{
+
+  text-align: end;
+  align-items: end;
+  justify-content: end;
+}
+.Business{
+  color:#603813;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+}
+.form-select-b{
+  font-size: 20px !important;
+  font-family: Inter, sans-serif !important;
+  border-radius: 40px!important;
+    color: black !important;
+}
+.green-colr{
+  color:#478830;
+  font-weight: bold;
+}
+.singnup-text{
+  display: flex; align-items: center;
+}
+.qr-text{
+  color:#603813; 
+  font-size: 18px; 
+  font-family: Inter, sans-serif; 
+}
+/* with sign_in  */
+.flex-grow-1{
+  color:#FBE50F;
+}
+.mx-1{
+  font-size: 18px;
+  font-family: Lato, sans-serif; 
+  color: #603813;
+}
+.form-group{
+  color:#603813;
+  font-size: 18px; 
+  font-family: Inter, sans-serif;
+  
+
+}
+.form-group input{
+background-color:#FFFDE8 ;
+border-radius: 40px;
+}
+.see-btn4{
+  color: #E70F88; 
+  font-size: 18px; 
+  font-family: Inter, sans-serif; 
+  cursor: pointer;
+}
+.see-btn5{
+  color: #E70F88; 
+  font-size: 18px; 
+  font-family: Inter, sans-serif; 
+  font-weight: bold;
+  cursor: pointer;
+}
+#Check{
+  cursor: pointer;
+}
+.singnup-text{
+  display: flex; 
+  align-items: center;
+}
+
+
+/* culainry page  */
+.cuilanry-page-title {
+  font-size: 48px;
+  font-family: Poppins, system-ui;
+  color: #603813;
+  font-weight: bold;
+}
+.Culainry .flex-grow-1{
+  color: #BA8F73;
+}
+.mx1{
+  color:#603813;
+  font-size: 25px; 
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+}
+.text{
+  font-size: 54px;
+  font-family: Sacramento, cursive;
+  color: #603813;
+  font-weight: 400;
+}
+.culainary-submitpara{
+  color:#603813;
+  font-size: 18px; 
+  font-family: Inter, sans-ser;
+}
+.Culainry label{
+  color:#603813;
+  font-size: 18px; 
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+}
+#business-name{
+  border:2px solid #FBE50F;
+  border-radius:40px; 
+  background-color: #FFFDE8;
+}
+#business-name::placeholder{
+  color: #9E8879;
+  font-size: 12px; 
+  font-family: Inter, sans-serif;
+}
+.span{
+  color:#9E8879;
+  font-size: 12px; 
+  font-family: Inter, sans-serif;
+}
+.form-select{
+  font-size: 12px; 
+  border:2px solid #FBE50F;
+  border-radius:40px; 
+  background-color: #FFFDE8;
+  padding: 5px 20px;
+  cursor: pointer;
+  color: #603813;
+}
+.file_name{
+  color: #E70F88;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+}
+.span1{
+  color:#603813;
+  font-size: 18px; 
+  font-family: Inter, sans-serif; ;
+}
+.text-area{
+  background-color: #FFFDE8; 
+  text-align: center; 
+  border:2px solid #FBE50F; 
+  height: 250px
+}
+.input-img{
+  color:#603813;
+  font-size: 14px; 
+  font-family: Inter, sans-serif; ;
+}
+.text-area .form-label1{
+  color:#603813;
+  font-size: 18px; 
+  font-family: Inter, sans-serif; ;
+}
+#formFileMultiple{
+  background-color: #FFFDE8;
+}
+.mx{
+  color:#E9E0DA;
+  font-size: 18px; 
+  font-family: Inter, sans-serif;
+  text-decoration: underline;
+}
+.culanry_h5{
+  color:#E70F88;
+  font-size: 18px; 
+  font-family: Inter, sans-serif;
+  text-decoration: underline;
+}
+
+/* Hide default HTML checkbox */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFDE8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #E70F88;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider-color .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #FBE50F;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FFFDE8;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FBE50F;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 30px;
+  border: 2px solid #FBE50F;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.culainry-toggle{
+  color:#603813;
+  font-size: 18px; 
+  font-family: Inter, sans-serif;
+}
+
+.checkbox{
+  display: none;
+}
+.button{
+  border: 2px solid #FBE50F;
+  background-color: #FFFDE8;
+  border-radius: 30px;
+  color:black;
+  font-size: 14px; 
+  font-family: Inter, sans-serif;
+ padding: 9px 20px;
+}
+.buttn-data
+{
+  text-align: center;
+}
+
+
+.see-btn3 {
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: #E70F88;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  vertical-align: 12px;
+}
+input[type=checkbox] {
+  accent-color: #E70F88;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.shadow-effect {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+#shadow-effect p {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+.img-circle {
+  border-radius: 50%;
+  vertical-align: middle;
+  max-width: 90px;
+  min-height: 90px;
+  transform-style: preserve-3d;
+  margin: 0 auto 17px;
+}
+#customer-testimonoals {
+  margin-top: 6%;
+}
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: auto;
+  /* background: linear-gradient(100deg, #845EC2, #BE93FD); */
+  background: linear-gradient(100deg, #FF8066, #FF918D);
+  /* background: linear-gradient(135deg, #ff3e00, #eaa400); */
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0px 9px 18px rgba(0,0,0,0.12), 0px 5px 7px rgba(0,0,0,0.5);
+}
+#customer-testimonoals .item {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 0px;
+  opacity: 0.2;
+  transform: scale3d(0.8, 0.8, 1);
+  transition: all 0.3s ease-in-out;
+}
+#customer-testimonoals .owl-item.active.center .item {
+  opacity: 1;
+  transform: scale3d(1.0, 1.0, 1);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #56423D;
+  transform: translate3d(0px, -50%, 0px) scale(0.8);
+}
+.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.owl-carousel .owl-dots .owl-dot{ 
+  display: inline-block;
+}
+.owl-carousel .owl-dots .owl-dot span{ 
+  /* background: #eaa400; */
+  background: #56423D;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+} 

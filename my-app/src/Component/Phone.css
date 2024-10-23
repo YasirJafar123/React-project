@@ -1,0 +1,266 @@
+
+/* media 1400 */
+@media (max-width:1400px) {
+}
+
+
+
+/* media 1299 */
+@media (max-width:1299px ) {
+    .background-images .left-side-img  {
+        width: 130px !important; 
+    }
+
+}
+
+
+/* media 1199 */
+@media (max-width:1199px) {
+    .dlvry-loc-img{
+        position: relative;
+        left: 30px;
+       
+    }
+    .cuisin .cuisin-text{
+      font-size: 20px;
+    }
+    
+    .cuisin-2nd-text{
+      font-size: 20px;
+    }
+    .about-text {
+        font-size: 20px;
+        bottom: 130px;
+    }
+    .home .custom-title1 {
+        font-size: 65px;
+    }
+}
+
+
+
+
+
+
+/* media 992 */
+@media (max-width:992px) {
+    .home .background-images {
+        display: none;
+      }
+    
+      .home .home-image {
+        display: none;
+      }
+    
+      .background-image {
+        background-image: none;
+      }
+    
+      .services-background {
+        background-image: none;
+      }
+      .cuisin .cuisin-background {
+        background-image: none;
+      }
+      .works .work-background{
+        background-image: none;
+      }
+      .home .signup-background-img{
+        background-image: none;
+      }
+      .delvry-hell-city .delvry-back-image{
+        background-image: none;
+      }
+      .home .application-back-image{
+        background-image: none;
+      }
+    .home .main-custom-titl {
+        text-align: center;
+    }
+.home .custom-text{
+    text-align: center;
+}
+    .home .custom-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .home .custom-title {
+        font-size: 54px;
+        font-weight: 700;
+
+    }
+    .home .custom-title1 {
+        font-size: 54px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home .custom-para {
+         text-align: center;
+    }
+
+
+
+    .about .about-image img {
+        border-radius: 50%;
+    }
+
+    .about-text {
+        color: rgb(95, 94, 94);
+        background-color: white;
+        position: relative;
+        bottom: 0px;
+        left: 20px !important;
+    }
+
+
+    .visit .heading-2 {
+        font-size: 35px;
+    }
+
+    .cuisin .cuisin-heading {
+        font-size: 40px;
+
+    }
+
+    .cuisin .cuisin-title {
+        font-size: 35px;
+    }
+
+    .cuisin .cuisin-text {
+        color: rgb(22, 78, 22);
+        background-color: unset;
+        font-weight: bold;
+        font-size: 24px;
+        bottom: 0px;
+        left: 25px;
+    }
+
+    .cuisin .cuisin-2nd-heading {
+        font-size: 40px;
+        position: relative;
+        right: 150px;
+    }
+
+    .cuisin .cuisin-2nd-title {
+        font-size: 35px;
+    }
+
+    .search {
+        text-align: center;
+    }
+
+    #what-text {
+
+        width: 300px;
+
+    }
+
+    #btnGroupDrop1 {
+        width: 100px;
+    }
+    .home .application-text{
+        font-size: 40px;
+     
+      }
+      .dlvry-loc-img{
+        position: relative;
+        left: 50px;
+        text-align: center;
+       
+    }
+}
+
+
+
+
+/* media 991 */
+@media (max-width:991px) {
+
+    .home .custom-heading,
+    .home .custom-title,
+    .home .custom-text,
+    .home .custom-para {
+        text-align: center;
+    }
+
+    .fots-img {
+        margin: 10px 0px;
+        width: 45px;
+    }
+
+    .fot1-img {
+        width: 140px;
+        height: 60px;
+    }
+    .visit .heading-2 {
+        font-size: 35px;
+      }
+
+
+}
+
+/* media 768 */
+@media (max-width:768px) {
+    .search {
+        text-align: center;
+    }
+
+    #what-text {
+        width: 200px;
+    }
+
+    #btnGroupDrop1 {
+        width: 100px;
+    }
+
+    .about-text {
+        font-size: 15px;
+        font-weight: 400;
+        left: 0px !important;
+    }
+
+    .cuisin .cuisin-text {
+        font-weight: 400;
+        font-size: 15px;
+        bottom: 0px;
+        left: 0px;
+    }
+    .dlvry-loc-img{
+        position: relative;
+        left: 0px;
+        text-align: center;
+       
+    }
+    .fot .fot-background{
+        background-image: none;
+    }
+
+
+}
+
+
+/* media 420 */
+@media (max-width:420px) {
+    .cuisin .cuisin-2nd-heading {
+        right: 100px;
+    }
+
+    .fot .fot-para {
+        font-size: 12px;
+    }
+
+    .home .custom-text {
+        font-size: 16px;
+    }
+
+    .home .custom-para {
+        font-size: 14px;
+    }
+    .cros-img  {
+        height: 300px !important;
+
+        border-radius:40px ;
+    }
+}
